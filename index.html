@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLCÁN PURACÉ - Gestión del Riesgo y Enciclopedia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado Principal Pastel con Doodles -->
+  <header>
+    <div class="header-container">
+      <img src="imagenes/logo.png" alt="Logo Institución" class="logo-small">
+      <div class="header-title">
+        <h1>VOLCÁN PURACÉ</h1>
+        <div class="status-badge">Estado: Alerta Naranja</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación -->
+  <nav>
+    <a href="#enciclopedia-timeline">Enciclopedia e Historial</a>
+    <a href="#escenarios">Escenarios Esperados</a>
+    <a href="#monitoreo">Monitoreo y Media</a>
+    <a href="#calculadora">Calculadora de Kits</a>
+    <a href="#evacuacion">Evacuación y Puntos</a>
+    <a href="#agropecuario">Sector Agropecuario</a>
+    <a href="#biodiversidad">Biodiversidad PNN</a>
+    <a href="#juego">Trivia Volcánica</a>
+  </nav>
+
+  <!-- Contenedor Principal -->
+  <div class="container">
+
+    <!-- Sección: Enciclopedia y Línea de Tiempo -->
+    <section id="enciclopedia-timeline">
+      <!-- Doodle Volcán con Humo en la esquina superior derecha -->
+      <svg class="doodle doodle-top-right" viewBox="0 0 64 64" fill="none" stroke="#3182ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 52L26 20H38L52 52H12Z"/>
+        <path d="M26 20C24 14 20 12 20 8"/>
+        <path d="M38 20C40 14 44 12 44 8"/>
+        <path d="M32 20C32 12 30 10 32 4"/>
+      </svg>
+
+      <h2>Enciclopedia del Volcán Puracé y Línea de Tiempo Eruptiva</h2>
+      
+      <div class="enciclopedia-header">
+        <div class="enciclopedia-text">
+          <p>El Volcán Puracé tiene aproximadamente 8,000 años de existencia geológica. A lo largo de su historia escrita, iniciada en el siglo XIX, se ha consolidado como uno de los sistemas más activos y dinámicos de Colombia. Su comportamiento alterna entre erupciones efusivas (flujos de lava) y violentas explosiones con flujos piroclásticos.</p>
+          <ul>
+            <li><strong>Ubicación Geográfica:</strong> Municipio de Puracé, Departamento del Cauca, Colombia.</li>
+            <li><strong>Altitud y Estructura:</strong> 4.650 m s. n. m., estratovolcán con cono truncado y cráteres concéntricos (el interno mide 500 m de diámetro).</li>
+            <li><strong>Cadena Volcánica:</strong> Pertenece a la Cadena Volcánica de Los Coconucos, integrada por 15 centros eruptivos.</li>
+            <li><strong>Protección Natural:</strong> Custodiado dentro del Parque Nacional Natural Puracé.</li>
+          </ul>
+        </div>
+        <div class="enciclopedia-img">
+          <img src="imagenes/crater.jpg" alt="Cráter del Volcán Puracé">
+          <p class="img-caption">Cráter principal del Volcán Puracé.</p>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <h3>Línea de Tiempo Oficial de la Crisis Moderna (2022–2026)</h3>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">📌 Marzo de 2022 — Cambio a Alerta Amarilla</span>
+          <p>El Servicio Geológico Colombiano (SGC) cambia de manera oficial el estado del volcán de Verde a <strong>Alerta Amarilla</strong>, impulsado por un incremento drástico en la sismicidad interna asociada al fracturamiento de roca.</p>
+        </div>
+
+        <div class="timeline-item highlight">
+          <span class="timeline-date">🚨 3 de mayo de 2024 — Primera Alerta Naranja</span>
+          <p>Tras variaciones críticas en la sismicidad, la desgasificación y una notable deformación del suelo, el volcán es elevado a <strong>Alerta Naranja</strong>. Esta condición se mantiene activa por dos meses enteros.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">📉 5 de julio de 2024 — Estabilización Temporal</span>
+          <p>Los parámetros internos muestran una estabilización temporal, permitiendo al SGC retornar el sistema a <strong>Alerta Amarilla</strong>.</p>
+        </div>
+
+        <div class="timeline-item highlight">
+          <span class="timeline-date">🚨 29 de noviembre de 2025 — Retorno a Alerta Naranja y Ceniza</span>
+          <p>Debido a nuevos incrementos en la sismicidad interna y a la recurrencia de emisiones de ceniza (un fenómeno superficial que no se registraba formalmente desde el año 1977), el volcán regresa a <strong>Alerta Naranja</strong>.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">📉 22 de enero de 2026 — Descenso Transitorio</span>
+          <p>Los parámetros sísmicos disminuyen de forma transitoria, por lo que el SGC reestablece la <strong>Alerta Amarilla</strong>.</p>
+        </div>
+
+        <div class="timeline-item highlight">
+          <span class="timeline-date">🚨 1 de agosto de 2026 — Alerta Naranja Definitiva</span>
+          <p>Ante un repunte crítico en la inestabilidad acumulada del sistema, el SGC eleva de manera definitiva el estado a <strong>Alerta Naranja</strong> (cambios importantes con probabilidad de erupción en términos de días o semanas).</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">🌋 10 de agosto de 2026 — Columnas de Ceniza y Afectación Aérea</span>
+          <p>Horas después de un sismo de gran magnitud sentido en el país, el volcán experimenta columnas de ceniza y gases de hasta 300 metros sobre el cráter, afectando por periodos intermitentes la aeronavegación en Popayán.</p>
+        </div>
+
+        <div class="timeline-item highlight">
+          <span class="timeline-date">📡 Septiembre de 2026 (Actualidad) — Sismicidad y Emisiones Continuas</span>
+          <p>El volcán se mantiene bajo una estricta <strong>Alerta Naranja</strong>. Los reportes diarios del Observatorio de Popayán (SGC) confirman el registro continuo de señales tipo tremor (TR) asociadas a fluidos bajo el cráter a menos de 1 km de profundidad. Asimismo, se documentan constantes emisiones de ceniza (por ejemplo, ocho emisiones en las últimas jornadas) divisadas desde Popayán y veredas como Alto Anambío, Cristales, Chapío y Campamento.</p>
+        </div>
+      </div>
+
+      <!-- Cuadro de Estado de Amenaza Actual -->
+      <div class="alert-info-box warning-box">
+        <h4>⚠️ Estado de Amenaza Actual (Septiembre de 2026)</h4>
+        <p>Con base en la actividad reportada por los científicos del SGC, las restricciones y peligros latentes reales se concentran en:</p>
+        <ul>
+          <li><strong>Gases y Fragmentos:</strong> Prohibición absoluta de acercarse a los cráteres del Puracé, Piocollo y Curiquinga ante el riesgo de explosiones menores o emisiones letales repentinas de dióxido de azufre (SO₂) y dióxido de carbono (CO₂).</li>
+          <li><strong>Lahares Secundarios:</strong> La acumulación de ceniza fresca en las partes altas puede generar flujos de lodo (lahares) sobre las cabeceras de los ríos que nacen en la cumbre ante la caída de lluvias fuertes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sección: Escenarios Esperados -->
+    <section id="escenarios">
+      <!-- Doodle Nube y Ceniza -->
+      <svg class="doodle doodle-top-right" viewBox="0 0 64 64" fill="none" stroke="#d69e2e" stroke-width="3" stroke-linecap="round">
+        <path d="M18 40C12 40 8 35 8 29C8 24 12 20 17 20C19 13 26 8 34 8C43 8 50 14 51 22C56 23 60 27 60 33C60 39 55 40 50 40H18Z"/>
+        <path d="M22 48L20 54"/>
+        <path d="M32 48L30 56"/>
+        <path d="M42 48L40 54"/>
+      </svg>
+
+      <h2>Escenarios Esperados durante la Alerta Naranja</h2>
+      <p>La Alerta Naranja indica un comportamiento altamente inestable del sistema volcánico. Se prevén los siguientes eventos de manera recurrente:</p>
+      
+      <div class="cards-grid">
+        <div class="info-card">
+          <div class="card-icon">🌫️</div>
+          <h4>Dispersión de Ceniza</h4>
+          <p>Emisiones continuas con columnas de vapor y gases. Caída de material en Popayán, Puracé, Totoró, Sotará, veredas como El Alto, Cristales y zonas de alta montaña según el viento.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">♨️</div>
+          <h4>Concentración de Gases</h4>
+          <p>Emisiones elevadas de dióxido de azufre (SO₂) y CO₂. Fuerte olor a azufre perceptible en zonas habitadas y restricción total de acceso por gases letales acumulados cerca de la cumbre.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">📊</div>
+          <h4>Enjambres Sísmicos</h4>
+          <p>Cientos de sismos diarios asociados a fracturamiento de roca y dinámica de fluidos magmáticos. Eventos muy superficiales (a menos de 1 km) percibidos comúnmente por la población local.</p>
+        </div>
+
+        <div class="info-card">
+          <div class="card-icon">⚡</div>
+          <h4>Fenómenos Lumínicos</h4>
+          <p>Posibilidad de tormentas eléctricas volcánicas (rayos y descargas nocturnas) causadas por la fricción de ceniza y partículas cargadas sobre la vertical del cráter.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Monitoreo Multimedia -->
+    <section id="monitoreo">
+      <h2>Monitoreo en Tiempo Real y Galería Multimedia</h2>
+      <p>Seguimiento visual del estado del volcán y los cauces hídricos de la zona de influencia.</p>
+      
+      <div class="media-grid">
+        <div class="media-card">
+          <video controls>
+            <source src="imagenes/VOLCAN 1.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+          </video>
+          <p><strong>Columna Eruptiva - Registro 1</strong><br>Monitoreo de la pluma de vapor y gases.</p>
+        </div>
+
+        <div class="media-card">
+          <video controls muted>
+            <source src="imagenes/VOLCAN 2.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+          </video>
+          <p><strong>Columna Eruptiva - Registro 2</strong><br>Emisión de material en la zona de cumbre (Audio de voz silenciado).</p>
+        </div>
+
+        <div class="media-card">
+          <video controls>
+            <source src="imagenes/CENIZA VOLCAN.mp4" type="video/mp4">
+            Tu navegador no soporta video.
+          </video>
+          <p><strong>Caída y Dispersión de Ceniza</strong><br>Registro del material particulado en el aire.</p>
+        </div>
+
+        <div class="media-card">
+          <img src="imagenes/RIO ANAMBIO.jpeg" alt="Río Anambío vista 1">
+          <p><strong>Río Anambío - Tramo Alto</strong><br>Evaluación de arrastre de sedimentos.</p>
+        </div>
+
+        <div class="media-card">
+          <img src="imagenes/RIO ANAMBIO 2.jpeg" alt="Río Anambío vista 2">
+          <p><strong>Río Anambío - Tramo Medio</strong><br>Inspección del nivel del cauce hídrico.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Calculadora de Kits -->
+    <section id="calculadora">
+      <!-- Doodle Botiquín y Mochila -->
+      <svg class="doodle doodle-top-right" viewBox="0 0 64 64" fill="none" stroke="#3182ce" stroke-width="3" stroke-linecap="round">
+        <rect x="12" y="20" width="40" height="32" rx="4"/>
+        <path d="M24 20V12C24 9.8 25.8 8 28 8H36C38.2 8 40 9.8 40 12V20"/>
+        <path d="M32 28V44"/>
+        <path d="M24 36H40"/>
+      </svg>
+
+      <h2>Calculadora Dinámica de Kits de Emergencia</h2>
+      <p>Planifica la preparación para emergencias volcánicas. Selecciona el tipo de kit e ingresa la cantidad de personas o estudiantes:</p>
+
+      <div class="kit-tabs">
+        <button id="tab-family" class="tab-btn active">🏡 Kit Familiar (3 Días)</button>
+        <button id="tab-school" class="tab-btn">🏫 Kit Escolar / Aula de Clase</button>
+      </div>
+
+      <!-- Vista 1: Kit Familiar -->
+      <div id="view-family" class="calc-card-container">
+        <div class="calc-input-section">
+          <label for="num-family"><strong>Número de integrantes de tu familia:</strong></label>
+          <div class="input-group">
+            <input type="number" id="num-family" min="1" max="20" value="4">
+            <button id="calc-family-btn" class="btn btn-calc">Calcular Kit Familiar</button>
+          </div>
+        </div>
+
+        <div class="calc-results-grid">
+          <div class="calc-item">
+            <span class="calc-icon">💧</span>
+            <div>
+              <strong id="fam-water">36</strong> Litros de Agua Potable
+              <small>(3L diarios por integrante)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">😷</span>
+            <div>
+              <strong id="fam-masks">24</strong> Mascarillas / Tapabocas N95
+              <small>(2 diarias por integrante)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">🥽</span>
+            <div>
+              <strong id="fam-goggles">4</strong> Gafas Herméticas
+              <small>(1 par por integrante)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">🥫</span>
+            <div>
+              <strong id="fam-food">24</strong> Raciones de Comida
+              <small>(No perecedera para 3 días)</small>
+            </div>
+          </div>
+
+          <div class="calc-item full-width">
+            <span class="calc-icon">🔦</span>
+            <div>
+              <strong>Equipos Clave del Hogar:</strong> 2 linternas potentes, 1 radio AM/FM con pilas de repuesto, botiquín de primeros auxilios y copia digital de documentos personales.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vista 2: Kit Escolar -->
+      <div id="view-school" class="calc-card-container hidden">
+        <div class="calc-input-section">
+          <label for="num-students"><strong>Número de estudiantes en el salón/aula:</strong></label>
+          <div class="input-group">
+            <input type="number" id="num-students" min="1" max="60" value="25">
+            <button id="calc-school-btn" class="btn btn-calc">Calcular Kit Escolar</button>
+          </div>
+        </div>
+
+        <div class="calc-results-grid">
+          <div class="calc-item">
+            <span class="calc-icon">😷</span>
+            <div>
+              <strong id="sch-masks">50</strong> Tapabocas / Mascarillas N95
+              <small>(2 por estudiante)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">💧</span>
+            <div>
+              <strong id="sch-water">25</strong> Botellas de Agua (500ml)
+              <small>(Hidratación de reserva inmediata)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">📜</span>
+            <div>
+              <strong id="sch-lists">2</strong> Planillas de Asistencia y Contactos
+              <small>(Directorio telefónico de acudientes)</small>
+            </div>
+          </div>
+
+          <div class="calc-item">
+            <span class="calc-icon">🩹</span>
+            <div>
+              <strong id="sch-kits">1</strong> Botiquín Institucional Completo
+              <small>(Gasas, suero, analgésicos, antiséptico)</small>
+            </div>
+          </div>
+
+          <div class="calc-item full-width">
+            <span class="calc-icon">📣</span>
+            <div>
+              <strong>Equipos de Emergencia Institucional:</strong> Megáfono/silbato de evacuación, linterna para el docente y ficha con necesidades médicas especiales del aula.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Sección: Evacuación y Puntos de Encuentro -->
+    <section id="evacuacion">
+      <h2>Rutas de Evacuación y Puntos de Encuentro</h2>
+      <p>Organización comunitaria, escolar e institucional ante una alerta de evacuación por riesgo volcánico:</p>
+      
+      <div class="evac-container">
+        <div class="evac-box">
+          <h3>🏛️ Pueblo / Cabecera Municipal</h3>
+          <p><strong>Puntos de Encuentro y Albergue Temporal:</strong> Polideportivo Municipal y Teatro Municipal.</p>
+          <p><strong>Rutas Primarias:</strong> Vías principales señalizadas alejadas de cuencas e hídricos propensos a lahares.</p>
+        </div>
+
+        <div class="evac-box">
+          <h3>⛰️ Veredas y Zonas Rurales</h3>
+          <p><strong>Puntos de Encuentro:</strong> Zonas altas despejadas, campos abiertos y crestas de cerros alejados de ríos, quebradas y cauces hídricos.</p>
+          <p><strong>Coordinación Comunal:</strong> Acudir a los puntos de evacuación delimitados por las Juntas de Acción Comunal (JAC), la UNGRD, los Consejos Comunitarios y las autoridades del Resguardo Indígena.</p>
+        </div>
+
+        <div class="evac-box full-width-box">
+          <h3>🏫 Instituciones Educativas y Colegios</h3>
+          <p>Las sedes escolares cuentan con zonas de repliegue seguro y evacuación rápida definidas dentro de sus Planes Escolares de Gestión del Riesgo (PEGR):</p>
+          <ul>
+            <li><strong>Patios Principales y Canchas Múltiples:</strong> Áreas abiertas libres de postes de energía, árboles frondosos o cables de alta tensión. Utilizadas para el conteo de estudiantes mediante las listas de asistencia.</li>
+            <li><strong>Zonas Verdes Interiores Despejadas:</strong> Espacios amplios y planos dentro de la sede educativa que sirven de punto de concentración seguro para los diferentes grados académicos.</li>
+            <li><strong>Aulas de Refugio Temporal:</strong> Salones ubicados en pisos superiores o zonas elevadas del colegio equipados con ventanas selladas para proteger contra la inhalación masiva de ceniza ácida y gases.</li>
+            <li><strong>Protocolo Escolar de Entrega:</strong> Los docentes permanecen con los grupos en la zona verde o cancha señalizada hasta la evacuación hacia albergues municipales o entrega formal a padres/acudientes.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Sector Agropecuario y Acuícola -->
+    <section id="agropecuario">
+      <h2>Medidas Preventivas para el Sector Agropecuario y Acuícola</h2>
+      <p>Guía técnica detallada para mitigar las afectaciones causadas por la caída de ceniza y la emisión de gases en las actividades productivas de la región:</p>
+
+      <div class="agro-grid">
+        <div class="agro-card">
+          <h3>🐄 Ganadería de Leche y Animales</h3>
+          <p><strong>Riesgo:</strong> Problemas digestivos, intoxicación por fluorosis y quemaduras bucales por comer pasto con ceniza ácida.</p>
+          <ul>
+            <li>Resguardar los animales en establos o cobertizos limpios.</li>
+            <li>Sacudir en seco el pasto o el forraje antes de suministrarlo al ganado.</li>
+            <li>Mantener los tanques de agua de bebida bien tapados para evitar la sedimentación de minerales tóxicos.</li>
+          </ul>
+        </div>
+
+        <div class="agro-card">
+          <h3>🌱 Cultivos (Papa,Fresa u otros)</h3>
+          <p><strong>Riesgo:</strong> Quema de follaje por acidez, taponamiento de poros (estomas) y quiebre de tallos por peso del material.</p>
+          <ul>
+            <li>Sacudir suavemente las plantas con ramas o plumeros en seco.</li>
+            <li><strong>Importante:</strong> No regar con agua la vegetación cubierta de ceniza, ya que forma una pasta corrosiva que destruye la hoja.</li>
+            <li>Proteger viveros pequeños o cultivos de fresa con plásticos o mallas de polietileno.</li>
+          </ul>
+        </div>
+
+        <div class="agro-card">
+          <h3>🐟 Piscicultura (Trucha)</h3>
+          <p><strong>Riesgo:</strong> Muerte por asfixia debido al exceso de sedimentos, aumento de acidez (pH) y obstrucción de agallas en los peces.</p>
+          <ul>
+            <li>Desviar o cerrar de inmediato las bocatomas de captación de agua limpia si los ríos traen ceniza.</li>
+            <li>Instalar mallas tupidas, desarenadores o filtros de grava en las entradas de los estanques.</li>
+            <li>Disminuir la ración diaria de alimento para evitar el consumo de oxígeno en el agua y cubrir tanques pequeños de cría.</li>
+          </ul>
+        </div>
+
+        <div class="agro-card">
+          <h3>💧 Consumo de Agua e Infraestructura</h3>
+          <p><strong>Riesgo:</strong> Colapso de techos livianos por acumulación de ceniza seca/húmeda y contaminación del agua hídrica.</p>
+          <ul>
+            <li>Limpiar continuamente los canales de lluvia y techos de las fincas.</li>
+            <li>Proteger los tanques de reserva hídrica con plásticos resistentes bien sujetados.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Biodiversidad PNN Puracé -->
+    <section id="biodiversidad">
+      <!-- Doodle Hoja y Frailejón -->
+      <svg class="doodle doodle-top-right" viewBox="0 0 64 64" fill="none" stroke="#319795" stroke-width="3" stroke-linecap="round">
+        <path d="M32 56V24"/>
+        <path d="M32 24C24 16 12 16 12 24C12 36 32 44 32 44"/>
+        <path d="M32 24C40 16 52 16 52 24C52 36 32 44 32 44"/>
+        <path d="M32 16C28 10 20 10 20 16C20 24 32 28 32 28"/>
+        <path d="M32 16C36 10 44 10 44 16C44 24 32 28 32 28"/>
+      </svg>
+
+      <h2>Biodiversidad en el PNN Puracé y Protección Ambiental</h2>
+      <p>El Parque Nacional Natural Puracé abarca más de 83.000 hectáreas declaradas <strong>Reserva de la Biosfera por la UNESCO en 1979</strong>. Este ecosistema de páramo y bosque altoandino es considerado la <em>estrella hídrica de Colombia</em>, pues en sus cumbres nacen cuatro de las arterias fluviales más importantes del país: los ríos <strong>Magdalena, Cauca, Patía y Caquetá</strong>.</p>
+
+      <div class="bio-grid">
+        <div class="bio-card">
+          <h3>🌱 Flora de Alta Montaña</h3>
+          <p>La vegetación de páramo está adaptada a condiciones extremas de frío, viento e insolación:</p>
+          <ul>
+            <li><strong>Frailejones (<em>Espeletia hartwegiana</em>):</strong> Especie clave encargada de retener las gotas de niebla y regular el ciclo del agua en las cuencas.</li>
+            <li><strong>Especies Forestales:</strong> En las zonas bajas abundan bosques de roble andino, pino colombiano y la emblemática palma de cera del Quindío.</li>
+            <li><strong>Diversidad Botánica:</strong> Registra más de 200 especies de orquídeas de frío, musgos reguladores hídricos, bromelias y puyas.</li>
+          </ul>
+        </div>
+
+        <div class="bio-card">
+          <h3>🦅 Fauna en Conservación</h3>
+          <p>El área protegida brinda refugio a especies emblemáticas en alto riesgo de extinción:</p>
+          <ul>
+            <li><strong>Aves Emblemáticas:</strong> Santuario del Cóndor de los Andes (<em>Vultur gryphus</em>), además de colibríes de páramo, pavas de monte y más de 160 especies de aves registradas.</li>
+            <li><strong>Grandes Mamíferos:</strong> Hábitat vital del oso de anteojos (<em>Tremarctos ornatus</em>), la danta de montaña o de páramo, el puma, el venado conejo y el venado colorado.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bio-impact">
+        <h3>Impacto Detallado del Incremento Volcánico</h3>
+        <p>El aumento en la desgasificación y la ceniza durante la Alerta Naranja altera los frágiles equilibrios del páramo:</p>
+        <ul>
+          <li><strong>Lluvia Ácida por Gases (SO₂):</strong> Las altas emanaciones de dióxido de azufre se combinan con las nubes y humedad de la montaña, produciendo lluvia ácida que quema las hojas tiernas de los frailejones y acidifica los cojines de musgo.</li>
+          <li><strong>Inhibición Fotosintética por Ceniza:</strong> La acumulación del material fino sobre la vegetación crea una barrera física que bloquea la radiación solar, reduce la fotosíntesis y obstruye los estomas por donde respiran las plantas.</li>
+          <li><strong>Alteración y Desplazamiento Animal:</strong> El olor fuerte a gases azufrados y la turbidez de las fuentes hídricas obligan a mamíferos como el oso de anteojos y los venados a desplazarse hacia cotas más bajas, aumentando el riesgo de conflicto con comunidades humanas.</li>
+        </ul>
+      </div>
+
+      <!-- Imagen Panorámica Ajustada -->
+      <div class="species-image-container">
+        <div class="media-card">
+          <img src="imagenes/fauna.jpg" alt="Fauna del PNN Puracé">
+          <p class="img-caption">Especies emblemáticas de fauna protegidas en el PNN Puracé.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Juego Interactivo Trivia Pastel -->
+    <section id="juego">
+      <!-- Doodle Estrella de Celebración / Medalla -->
+      <svg class="doodle doodle-top-right" viewBox="0 0 64 64" fill="none" stroke="#805ad5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="32,4 40,24 60,24 44,36 50,56 32,44 14,56 20,36 4,24 24,24"/>
+      </svg>
+
+      <h2>Desafío Educativo: Trivia Volcánica</h2>
+      <div class="game-container">
+        
+        <!-- Pantalla de Inicio -->
+        <div id="start-screen">
+          <div class="game-badge">🎯 Trivia interactiva</div>
+          <h3>¿Qué tanto sabes sobre el Volcán Puracé y la Gestión del Riesgo?</h3>
+          <p>Pon a prueba tus conocimientos respondiendo este cuestionario interactivo de 6 preguntas claves.</p>
+          <button id="start-btn" class="btn">Comenzar Trivia</button>
+        </div>
+
+        <!-- Pantalla de Preguntas -->
+        <div id="quiz-screen" class="hidden">
+          <div class="game-status">
+            <div>Pregunta <span id="current-num">1</span> de <span id="total-num">6</span></div>
+            <div>Puntaje: <span id="score-display">0</span> Pts</div>
+          </div>
+
+          <div class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+
+          <div id="question-text" class="question-title">Cargando pregunta...</div>
+          
+          <div id="options-container" class="options-list"></div>
+
+          <div id="feedback-msg" class="feedback-msg hidden"></div>
+
+          <button id="next-btn" class="btn hidden">Siguiente Pregunta ➔</button>
+        </div>
+
+        <!-- Pantalla Final -->
+        <div id="end-screen" class="hidden">
+          <div class="end-icon">🏆</div>
+          <h3 id="game-over-title">¡Trivia Finalizada!</h3>
+          <p id="game-over-msg">Obtuviste X de X respuestas correctas.</p>
+          <div id="final-badge" class="result-badge">---</div>
+          <button id="restart-btn" class="btn">Volver a Jugar 🔄</button>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Pie de Página -->
+  <footer>
+    <div class="footer-content">
+      <p><strong>Institución Educativa Manuel María Mosquera</strong></p>
+      <p>Área de Tecnología e Informática</p>
+      <p>Realizado por: <strong>Laura Victoria Guauña Mazabuel</strong> — Grado 10 A</p>
+      <p>Fecha de actualización: <strong>Septiembre de 2026</strong></p>
+      <p class="copyright">&copy; 2026 Gestión del Riesgo Volcánico - Territorio Ancestral Puracé</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
